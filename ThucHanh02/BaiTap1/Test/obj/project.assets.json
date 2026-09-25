@@ -1,0 +1,140 @@
+{
+  "version": 3,
+  "targets": {
+    "net9.0": {
+      "Bai1_1/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/Bai1_1.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Bai1_1.dll": {}
+        }
+      },
+      "Bai1_2/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/Bai1_2.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Bai1_2.dll": {}
+        }
+      },
+      "Bai1_3/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/Bai1_3.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Bai1_3.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Bai1_1/1.0.0": {
+      "type": "project",
+      "path": "../Bai1_1/Bai1_1.csproj",
+      "msbuildProject": "../Bai1_1/Bai1_1.csproj"
+    },
+    "Bai1_2/1.0.0": {
+      "type": "project",
+      "path": "../Bai1_2/Bai1_2.csproj",
+      "msbuildProject": "../Bai1_2/Bai1_2.csproj"
+    },
+    "Bai1_3/1.0.0": {
+      "type": "project",
+      "path": "../Bai1_3/Bai1_3.csproj",
+      "msbuildProject": "../Bai1_3/Bai1_3.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net9.0": [
+      "Bai1_1 >= 1.0.0",
+      "Bai1_2 >= 1.0.0",
+      "Bai1_3 >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\gauba\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\2.C#C++\\C #\\Tuần 2\\ThucHanh02\\BaiTap1\\Test\\Test.csproj",
+      "projectName": "Test",
+      "projectPath": "D:\\2.C#C++\\C #\\Tuần 2\\ThucHanh02\\BaiTap1\\Test\\Test.csproj",
+      "packagesPath": "C:\\Users\\gauba\\.nuget\\packages\\",
+      "outputPath": "D:\\2.C#C++\\C #\\Tuần 2\\ThucHanh02\\BaiTap1\\Test\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\gauba\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net9.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "projectReferences": {
+            "D:\\2.C#C++\\C #\\Tuần 2\\ThucHanh02\\BaiTap1\\Bai1_1\\Bai1_1.csproj": {
+              "projectPath": "D:\\2.C#C++\\C #\\Tuần 2\\ThucHanh02\\BaiTap1\\Bai1_1\\Bai1_1.csproj"
+            },
+            "D:\\2.C#C++\\C #\\Tuần 2\\ThucHanh02\\BaiTap1\\Bai1_2\\Bai1_2.csproj": {
+              "projectPath": "D:\\2.C#C++\\C #\\Tuần 2\\ThucHanh02\\BaiTap1\\Bai1_2\\Bai1_2.csproj"
+            },
+            "D:\\2.C#C++\\C #\\Tuần 2\\ThucHanh02\\BaiTap1\\Bai1_3\\Bai1_3.csproj": {
+              "projectPath": "D:\\2.C#C++\\C #\\Tuần 2\\ThucHanh02\\BaiTap1\\Bai1_3\\Bai1_3.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.300"
+    },
+    "frameworks": {
+      "net9.0": {
+        "targetAlias": "net9.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.316/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
